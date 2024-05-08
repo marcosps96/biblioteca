@@ -20,4 +20,5 @@ que pode ser usada posteriormente para realizar consultas e outras operações n
 
 } catch (\Throwable $th) {
     throw $th;
-}
+} 
+?>
