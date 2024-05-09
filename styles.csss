@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    bottom: 0;
+        width: 100%;
+}
+
+.message {
+    color: #004085; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 4px;
+    width: 40%;
+}
+
+nav {
+    background-color: #04AA6D;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    background-color: #04AA6D;
+    text-decoration: none;
+    margin: 10 10px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #04AA6D;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h2 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+}
+
+h3 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+}
+
+h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: orange;
+}
+
+.btn-verde,
+.btn-cadastrar,
+.btn-vermelho {
+    color: white;
+    margin: 10 10px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-verde,
+.btn-cadastrar,
+.btn-vermelho a {
+    text-decoration: none;
+    border: transparent;
+    width: auto;
+}
+
+.btn-verde,
+.btn-cadastrar {
+    background-color: #2ECC71;
+}
+
+.btn-vermelho {
+    background-color: #E74C3C;
+}
+
+.btn-verde:hover,
+.btn-cadastrar:hover {
+    text-decoration: none;
+    background-color: #28B463;
+    color: white;
+}
+
+.btn-vermelho:hover {
+    text-decoration: none;
+    background-color: #CB4335;
+    color: white;
+}
+
+.btn-cadastrar{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 12%;
+}
+
+.container {
+    text-align: center;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 20px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    justify-self: center;
+    align-self: center;
+    grid-column: span 4;
+    width: 25%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
